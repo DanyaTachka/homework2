@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <title>Анкета відвідувача ресторану</title>
+</head>
+<body>
+  <h1>Анкета відвідувача ресторану</h1>
+
+  <form>
+    <label>Ім'я:
+      <input type="text" name="name">
+    </label><br><br>
+
+    <label>Телефон:
+      <input type="tel" name="phone" placeholder="000-000-00-00">
+    </label><br><br>
+
+    <label>Email:
+      <input type="email" name="email">
+    </label><br><br>
+
+    <label>Дата відвідування:
+      <input type="date" name="date">
+    </label><br><br>
+
+    <label>Вік:
+      <input type="number" name="age">
+    </label><br><br>
+
+    <label>Улюблена кухня:
+      <input type="text" name="cuisine">
+    </label><br><br>
+
+    <label>Які ще страви ви б хотіли бачити в меню?<br>
+      <textarea name="dishes"></textarea>
+    </label><br><br>
+
+    <p>Чому ви обрали наш заклад?</p>
+    <label><input type="checkbox" name="reason" value="work"> Поряд з місцем роботи</label><br>
+    <label><input type="checkbox" name="reason" value="ads"> Побачив рекламу</label><br>
+    <label><input type="checkbox" name="reason" value="friends"> Порадила друзі</label><br>
+    <label><input type="checkbox" name="reason" value="price"> Найкраще співвідношення ціни і якості</label><br><br>
+
+    <p>Чи будете ви рекомендувати наш заклад своїм знайомим?</p>
+    <label><input type="radio" name="recommend" value="yes"> Так</label><br>
+    <label><input type="radio" name="recommend" value="no"> Ні</label><br><br>
+
+    <input type="submit" value="Відправити">
+  </form>
+</body>
+</html>
